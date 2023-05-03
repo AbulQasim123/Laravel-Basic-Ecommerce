@@ -15,7 +15,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8">
-				<div id="message" class="alert " style="display: none;"></div>
+				<div id="message" class="alert" style="display: none;"></div>
 				<form>
 					{{ csrf_field() }}
 					<p>

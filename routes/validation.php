@@ -2,6 +2,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AjaxValidationController;
 use App\Http\Controllers\HomeController;
+
       /* Ajax Validation in laravel 8 */
 Route::get('ajax-form',[AjaxValidationController::class,'AjaxForm']);
 Route::post('submit-form',[AjaxValidationController::class,'SubmitForm'])->name('add.form');

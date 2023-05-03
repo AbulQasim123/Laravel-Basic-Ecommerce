@@ -1,10 +1,11 @@
 <?php
 
 namespace App\Http\Controllers;
+use PDF;
 use App\Models\Validation;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
-use PDF;
+
 class AjaxValidationController extends Controller
 {
     public function AjaxForm(){
