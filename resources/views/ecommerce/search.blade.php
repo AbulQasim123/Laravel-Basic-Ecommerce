@@ -3,7 +3,6 @@
 	<h3>{{$errors->first('search')}}</h3>
 @endif
 @section('content')
-	
 	<div class="container-fluid my-3">
 		<h3>Results for Search</h3><hr>
 		<div class="row">
